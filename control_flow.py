@@ -62,3 +62,40 @@ speed = 100
 mile = 12
 if speed >= 45 or mile <=10:
     print("You will get there a bit late!")
+
+#Boolean Operators: not (reverese the boolean value)
+bool_not_one = not (4 + 5 <= 9)
+print(bool_not_one)
+bool_not_two = not (8 * 2) != 20 - 4
+print(bool_not_two)
+
+credits_not_ex = 120
+gpa_not_ex = 1.8
+
+if not credits_not_ex >= 120:
+    print("You do not have enough credits to graduate.")
+if not gpa_not_ex >= 2.0:
+    print("Your GPA is not high enough to graduate.")
+if not credits_not_ex >= 120 and not gpa_not_ex >= 2.0:
+    print("You do not meet either requirement to graduate!")
+
+#Else Statements: tell the code what to do when certain conditions are not met
+age = 14
+if age >= 15:
+    print("You are able to start with a learners permit")
+else:
+    print("Sorry! You have to wait until you are 15.")
+
+#Else If Statements: checks another condition after the previous if statements conditions aren't met
+grade = 50
+
+if grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
+elif grade >= 60:
+    print("D")
+else:
+    print("F")
