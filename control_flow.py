@@ -22,7 +22,7 @@ is_raining = True
 if is_raining:
     print("Bring an umbrella")
 
-if 3 == 4 -1:
+if 3 == 4 - 1:
     print("Math rocks")
 
 car = "Porsche 911"
