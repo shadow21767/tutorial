@@ -116,3 +116,21 @@ print(apple_product[:1])
 print(apple_product[:-2])
 print(apple_product[-3:])
 print(apple_product[2:])
+
+#Counting in a List: it is common to want to count occurrences of an item in a list
+california_spelled_out = ["c", "a", "l", "i", "f", "o", "r", "n", "i", "a"]
+number_of_a = california_spelled_out.count("a")
+print(number_of_a)
+
+#Sorting Lists 1: to sort a list in either numerical (1, 2, 3, ...) or alphabetical (a, b, c, ...) order.
+avengers.sort()
+print(avengers)
+
+avengers.sort(reverse=True) #the option to go in reverse.
+print(avengers)
+
+#Sorting Lists 2: sort a list in Python is to use the built-in function sorted()
+#comes before a list, instead of after as all built-in functions do.
+#generates a new list rather than modifying the one that already exists.
+sorted_avengers = sorted(avengers)
+print(sorted_avengers)
