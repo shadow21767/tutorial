@@ -109,3 +109,10 @@ print(len(avengers))
 letters = ["a", "b", "c", "d", "e"]
 sliced_list = letters[0:3]
 print(sliced_list)
+
+#Slicing Lists 2: More practice
+apple_product = ["iPhone", "iPad", "iPod", "MacBook"]
+print(apple_product[:1])
+print(apple_product[:-2])
+print(apple_product[-3:])
+print(apple_product[2:])
