@@ -75,3 +75,37 @@ class_name_hobbies[0][1] = "Meditation"
 print(class_name_hobbies)
 class_name_hobbies[-1][-1] = "Football"
 print(class_name_hobbies)
+
+
+#Working With Lists in Python
+
+#Adding by Index: Insert - The Python list method .insert() allows us to add an element to a specific index in a list. Two inputs: The index you want to insert into. The element you want to insert at the specified index. Will handle shifting
+#over elements and can be used with negative indices.
+characters = ["John Wick", "Optimus Prime", "James Bond", "Bumblebee", "Megatron", "Starscream"]
+characters.insert(3, "Nemo")
+print(characters)
+
+#Removing by Index: Pop - a method to remove elements at a specific index using a method called .pop()
+removed_characters = characters.pop(0)
+print(characters)
+print(removed_characters)
+
+#Consecutive Lists: Range - takes a single input, and generates numbers starting at 0 and ending at the number before the input
+id_range = range(10)
+print(id_range)
+print(list(id_range))
+
+#The Power of Range - By default, range() creates a list starting at 0. However, if we call range() with two inputs, we can create a list that starts at a different number
+two_to_17 = range(2,18)
+print(list(two_to_17))
+two_to_100 = range(2,101, 3) #the third input creates a list that "skips" numbers 
+print(list(two_to_100))
+
+#Length - apply len() to a list, we get the number of elements in that list
+avengers = ["Iron Man", "Black Widow", "Hulk", "Captain America", "Hawkeye", "Doctor Strange", "Thor"]
+print(len(avengers))
+
+#Slicing Lists 1: Dividing a list in such a manner is referred to as slicing.
+letters = ["a", "b", "c", "d", "e"]
+sliced_list = letters[0:3]
+print(sliced_list)
